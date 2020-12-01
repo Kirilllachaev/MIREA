@@ -1,9 +1,10 @@
 package pr_7;
 
 public class Main {
-    public static void main(String[] args) {
-        final boolean DEBUG_MODE = false;
-        Game pyanitsa = new Game(DEBUG_MODE);
+    public static void main(String[] args) 
+    {
+        
+        Game pyanitsa = new Game();
         pyanitsa.readFirst();
         pyanitsa.readSecond();
         pyanitsa.loop();
